@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Z:\\UnityHub\\Projects\\ObjectGrab\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{52A76935-CDA4-0722-D20D-ACD4D16AE0C8}|Assembly-CSharp.csproj|z:\\unityhub\\projects\\objectgrab\\assets\\scripts\\autobindcollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52A76935-CDA4-0722-D20D-ACD4D16AE0C8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\autobindcollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AutoBindCollider.cs",
+              "DocumentMoniker": "Z:\\UnityHub\\Projects\\ObjectGrab\\Assets\\Scripts\\AutoBindCollider.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AutoBindCollider.cs",
+              "ToolTip": "Z:\\UnityHub\\Projects\\ObjectGrab\\Assets\\Scripts\\AutoBindCollider.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AutoBindCollider.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T03:49:02.025Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
