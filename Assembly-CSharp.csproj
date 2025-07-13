@@ -61,6 +61,8 @@
     <Analyzer Include="Z:\UnityHub\Unity Editor\6000.0.34f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\torqueScript.cs" />
+    <Compile Include="Assets\JointController.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -417,7 +417,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 77443406}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.27311084, y: -0, z: -0, w: 0.9619826}
+  m_LocalRotation: {x: -0.22168246, y: -0.56187713, z: 0.15951926, w: 0.78083587}
   m_LocalPosition: {x: 0, y: 0.3369999, z: -0.75699997}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -425,7 +425,7 @@ Transform:
   - {fileID: 233140322}
   - {fileID: 581688276}
   m_Father: {fileID: 302547079}
-  m_LocalEulerAnglesHint: {x: -31.699, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -9.61, y: -74.089, z: 30.353}
 --- !u!153 &77443408
 ConfigurableJoint:
   m_ObjectHideFlags: 0
@@ -1136,6 +1136,7 @@ GameObject:
   - component: {fileID: 302547079}
   - component: {fileID: 302547078}
   - component: {fileID: 302547077}
+  - component: {fileID: 302547080}
   m_Layer: 0
   m_Name: Palm
   m_TagString: Untagged
@@ -1158,9 +1159,9 @@ ConfigurableJoint:
   m_AutoConfigureConnectedAnchor: 1
   m_ConnectedAnchor: {x: 0, y: 0, z: 0}
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
-  m_XMotion: 0
-  m_YMotion: 0
-  m_ZMotion: 0
+  m_XMotion: 2
+  m_YMotion: 2
+  m_ZMotion: 2
   m_AngularXMotion: 1
   m_AngularYMotion: 0
   m_AngularZMotion: 0
@@ -1268,7 +1269,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -1280,7 +1281,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 302547076}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.10341857, w: 0.9946379}
   m_LocalPosition: {x: 0, y: -1.726, z: 0.829}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1292,7 +1293,66 @@ Transform:
   - {fileID: 2049823687}
   - {fileID: 1137012578}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -11.872}
+--- !u!114 &302547080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302547076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a27ea3e18e796949b0776e44d5a172b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secondaryAxisJoints:
+  - {fileID: 302547078}
+  - {fileID: 77443409}
+  - {fileID: 49232768}
+  - {fileID: 660942728}
+  - {fileID: 2049823689}
+  - {fileID: 1137012580}
+  primaryAxisJoints:
+  - {fileID: 302547078}
+  - {fileID: 77443409}
+  - {fileID: 581688277}
+  - {fileID: 711757903}
+  - {fileID: 49232768}
+  - {fileID: 357391638}
+  - {fileID: 886503839}
+  - {fileID: 660942728}
+  - {fileID: 1648639290}
+  - {fileID: 2044666236}
+  - {fileID: 2049823689}
+  - {fileID: 1831441923}
+  - {fileID: 1041784138}
+  - {fileID: 1137012580}
+  - {fileID: 307086920}
+  - {fileID: 1549469076}
+  calculatedForces:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
 --- !u!1 &307086918
 GameObject:
   m_ObjectHideFlags: 0
@@ -4469,7 +4529,7 @@ Transform:
   m_GameObject: {fileID: 960025966}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.137, y: -2.228, z: 2.772}
+  m_LocalPosition: {x: 1.76, y: -0.9, z: 2.196}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
